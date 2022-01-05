@@ -1,0 +1,24 @@
+{
+    "name": "softr/mako-janitor",
+    "type": "mako-package",
+    "description": "Simple System Admin for MakoFramework 4.1 ~ 4.2",
+    "keywords": ["mako", "framework", "syadmin", "migrations", "logs"],
+    "authors": [
+        {
+            "name": "Agência softr Ltda",
+            "email": "contato@softr.com.br",
+            "homepage": "http://www.softr.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "softr\\MakoJanitor\\": "classes"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "pulse00/monolog-parser": "^0.0.3",
+        "softr/mako-schema-builder": "1.*",
+        "composer/installers": "*"
+    }
+}
